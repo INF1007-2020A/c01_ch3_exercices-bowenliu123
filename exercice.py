@@ -10,7 +10,7 @@ def average(a: float, b: float, c: float) -> float:
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
-    return (angle_secs / 3600) + (angle_mins / 60) + angle_degs
+    return ((angle_secs / 3600) + (angle_mins / 60) + angle_degs)
 
 
 def to_degrees(angle_rads: float) -> tuple:
