@@ -18,7 +18,7 @@ def to_degrees(angle_rads: float) -> tuple:
     min = 0 
     sec = 0
     deg = angle_rads * 180 / math.pi
-    min = deg 
+    min = deg % 
     return 0, 0, 0.0
 
 
